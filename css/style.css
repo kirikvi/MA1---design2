@@ -17,11 +17,17 @@ font-family: broadsheet, serif;
 font-weight: 400;
 font-style: normal;
 
-.welcome-section h1,
-.welcome-section p {
-    background-color: white;
-    padding: 20px;
-}
+    <div class="our-story">
+        <div class="our-story-text">
+            <h2>Our story</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <a href="index.html">read more</a>
+        </div>
+
+        <div>
+            <img src="/images/new/deconovo-JlHYZil96lQ-unsplash.jpg">
+        </div>
+    </div>
 
 */
 
@@ -35,6 +41,15 @@ html, body {
     box-sizing: inherit;
 }
 
+html{
+    background-color: #ffffff;
+    opacity: 1;
+    background-image:  linear-gradient(135deg, #e9e4e1 25%, transparent 25%), linear-gradient(225deg, #e9e4e1 25%, transparent 25%), linear-gradient(45deg, #e9e4e1 25%, transparent 25%), linear-gradient(315deg, #e9e4e1 25%, #ffffff 25%);
+    background-position:  6px 0, 6px 0, 0 0, 0 0;
+    background-size: 6px 6px;
+    background-repeat: repeat;
+}
+
 body {
     margin: 0;
     font-family: warnock-pro, serif;
@@ -43,16 +58,18 @@ body {
     background-color: #fff;
 }
 
+img {
+    border-radius: 3px;
+}
+
 h1,
 h2,
 h3,
 h4,
 h5,
-h5
+h6
 {
-    font-family: broadsheet, serif;
-    font-weight: 400;
-    font-style: normal;
+    text-align: center;
 }
 
 body,
@@ -61,7 +78,6 @@ a{
 }
 
 .navigation{
-    display: flex;
     justify-content:space-evenly;
     width: 100%;
     font-family: broadsheet, serif;
@@ -79,44 +95,137 @@ a{
     margin-top: 20px;
 }
 
+.navigation i {
+    margin-top: 10px;
+}
+
+i {
+    font-size: 1.4rem;
+    margin: 5px;
+}
+
 .logo {
     max-width: 200px;
 }
 
-.wrapper p,
-.wrapper h1 {
-    width: 80%;
-    margin: auto;
+.wrapper {
+    width: 90%;
+    margin: -60px auto 20px;
+    padding-bottom: 10px;
+    background-color: #fff;
+    border-radius: 50px;
+}
+
+.welcome-section {
+    max-width: 80%;
+    margin: 0px auto 40px;
+}
+
+.welcome-section h1,
+.welcome-section p {
+    text-align: center;
+}
+
+.welcome-section h1{
+    padding-top: 40px;
 }
 
 .products-container{
-    display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background-image: url("/images/line.png");
-    background-size: cover;
-    background-blend-mode: soft-light;
-    
 }
 
 .product {
     margin: 10px;
+    flex: 1;
+}
+
+.product h3{
+    text-align: left;
 }
 
 .product img {
     width: 100%;
-    height: 170px;
-    object-fit: contain;
+    max-height: 170px;
+    object-fit: cover;
+}
+
+.last-chance {
+    background-color: #fff;
     border-radius: 2px;
 }
 
+.navigation,
+.our-story,
+.categories,
+.products-container,
+.register,
+footer,
+.social-media {
+    display: flex;
+}
+
+.our-story div{
+    flex: 1;
+}
+
+.categories{
+    flex: 1 0;
+    flex-wrap: wrap;
+    font-size: 2rem;
+}
+
+.categories h3 {
+    margin: 20px;
+}
+
+.decorations,
+.kitchenware,
+.furniture,
+.sale {
+    flex: 1;
+}
+
+.decorations {
+    background-image: url("/images/stephanie-harvey-PPA6wsuedeM-unsplash.jpg");
+    background-size: cover;
+}
+
+.furniture {
+    background-image: url("/images/nathan-oakley-ueJ2oJeEK-U-unsplash.jpg");
+    background-size: cover;
+}
+
+.kitchenware {
+    background-image: url("/images/new/brooke-lark-JkTv__BqmaA-unsplash.jpg");
+    background-size: cover;
+}
+
+.sale{
+    background-image: url("/images/new/hutomo-abrianto-3tV7afC7alc-unsplash.jpg");
+    background-size: cover;
+}
+
+
+.our-story img {
+    max-width: 100%;
+}
+
 .sale-section{
-    height: 200px;
-    background-color: #D6C4AE;
-    opacity: 1;
-    background-image:  radial-gradient(#FFF5E8 0.9px, transparent 0.9px), radial-gradient(#FFF5E8 0.9px, #D6C4AE 0.9px);
-    background-size: 36px 36px;
-    background-position: 0 0,18px 18px;
+    text-align: center;
+    padding: 20px 20px 100px;  
+}
+
+.sale-section,
+.our-story {
+    background-color: #fff;
+}
+
+.register,
+.register img {
+    background-color: #B8A89C;
+    border-radius: 50px;
+    margin-top: -60px;
 }
 
 .register img{
@@ -124,7 +233,41 @@ a{
     object-fit: cover;
 }
 
-.register,
+.register-text{
+    margin-left: -60px;
+}
+
+
 footer {
-    display: flex;
+    background-color: #857971;
+    margin-top: -40px;
+    padding-top: 50px;
+    flex-direction: column;
+}
+
+.footer-logo {
+    max-width: 270px;
+}
+
+.logo-ul {
+    margin: auto;
+}
+
+footer ul {
+    font-weight: 600;
+    text-transform: lowercase;
+    flex: 1;
+}
+
+footer li {
+    list-style-type: none;
+    font-weight: 100;
+}
+
+.copyright,
+.copyright p {
+    background-color: #38291F;
+    color:#B8A89C;
+    text-align: right;
+    margin: 0;
 }
