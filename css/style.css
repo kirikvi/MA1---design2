@@ -1,0 +1,126 @@
+/*
+COLOUR PALLETTE
+almost black: #24211E
+desert: #d09B75
+beige: #B8A89C
+dark brown: #38291F
+brown: #857971
+
+
+FONTS
+
+font-family: warnock-pro, serif;
+font-weight: 300;
+font-style: normal;
+
+font-family: broadsheet, serif;
+font-weight: 400;
+font-style: normal;
+
+.welcome-section h1,
+.welcome-section p {
+    background-color: white;
+    padding: 20px;
+}
+
+*/
+
+
+html, body {
+    box-sizing: border-box;
+    height: 100%;
+}
+
+*, *::after{
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    font-family: warnock-pro, serif;
+    font-weight: 300;
+    font-style: normal;
+    background-color: #fefefe;
+    color: #24211E;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h5
+{
+    font-family: broadsheet, serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.navigation{
+    display: flex;
+    justify-content:space-evenly;
+    width: 100%;
+    font-family: broadsheet, serif;
+    font-weight: 400;
+    font-style: normal;
+
+    background-image: url("/images/new/inside-weather-Uxqlfigh6oE-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 60% 20%;
+    height: 50%;
+}
+
+.navigation a {
+    margin-top: 20px;
+}
+
+.logo {
+    max-width: 200px;
+}
+
+.wrapper p,
+.wrapper h1 {
+    width: 80%;
+    margin: auto;
+}
+
+.products-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-image: url("/images/line.png");
+    background-size: cover;
+    background-blend-mode: soft-light;
+    
+}
+
+.product {
+    margin: 10px;
+}
+
+.product img {
+    width: 100%;
+    height: 170px;
+    object-fit: contain;
+    border-radius: 2px;
+}
+
+.sale-section{
+    height: 200px;
+    background-color: #D6C4AE;
+    opacity: 1;
+    background-image:  radial-gradient(#FFF5E8 0.9px, transparent 0.9px), radial-gradient(#FFF5E8 0.9px, #D6C4AE 0.9px);
+    background-size: 36px 36px;
+    background-position: 0 0,18px 18px;
+}
+
+.register img{
+    max-width: 60%;
+    object-fit: cover;
+}
+
+.register,
+footer {
+    display: flex;
+}
