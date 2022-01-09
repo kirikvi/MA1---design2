@@ -17,18 +17,6 @@ font-family: broadsheet, serif;
 font-weight: 400;
 font-style: normal;
 
-    <div class="our-story">
-        <div class="our-story-text">
-            <h2>Our story</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            <a href="index.html">read more</a>
-        </div>
-
-        <div>
-            <img src="/images/new/deconovo-JlHYZil96lQ-unsplash.jpg">
-        </div>
-    </div>
-
 */
 
 
@@ -138,10 +126,14 @@ i {
 .product {
     margin: 10px;
     flex: 1;
+    font-weight: 600;
 }
 
 .product h3{
     text-align: left;
+    font-size: 0.6rem;
+    text-transform: uppercase;
+    font-weight: 300;
 }
 
 .product img {
@@ -172,7 +164,7 @@ footer,
 .categories{
     flex: 1 0;
     flex-wrap: wrap;
-    font-size: 2rem;
+    font-size: 1.3rem;
 }
 
 .categories h3 {
@@ -184,6 +176,7 @@ footer,
 .furniture,
 .sale {
     flex: 1;
+    background-position: 100% 50%;
 }
 
 .decorations {
@@ -197,7 +190,7 @@ footer,
 }
 
 .kitchenware {
-    background-image: url("/images/new/brooke-lark-JkTv__BqmaA-unsplash.jpg");
+    background-image: url("/images/vladimir-gladkov-d1hKXgFJUKw-unsplash.jpg");
     background-size: cover;
 }
 
@@ -213,7 +206,7 @@ footer,
 
 .sale-section{
     text-align: center;
-    padding: 20px 20px 100px;  
+    padding: 20px 20px 130px;  
 }
 
 .sale-section,
@@ -237,6 +230,22 @@ footer,
     margin-left: -60px;
 }
 
+.register input {
+    margin-left: -40px; 
+}
+
+.register input,
+.register button {
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.register button {
+    background-color: #B8A89C;
+    color: #24211E;
+    cursor: pointer;
+}
 
 footer {
     background-color: #857971;
@@ -247,10 +256,6 @@ footer {
 
 .footer-logo {
     max-width: 270px;
-}
-
-.logo-ul {
-    margin: auto;
 }
 
 footer ul {
