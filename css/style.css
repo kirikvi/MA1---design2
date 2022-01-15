@@ -1,3 +1,4 @@
+
 /*
 COLOUR PALLETTE
 almost black: #24211E
@@ -56,6 +57,9 @@ a{
     justify-content: space-between;
     padding: 10px;
     width: 100%;
+}
+
+.homepage-navigation {
     background-image: url("/images/new/inside-weather-Uxqlfigh6oE-unsplash.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -276,7 +280,7 @@ footer li {
 
 @media only screen and (min-width: 865px) {
 
-    .navigation{
+    .homepage-navigation{
         background-position: 50% 55%;
         height: 75%;
     }

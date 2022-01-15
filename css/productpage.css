@@ -1,0 +1,30 @@
+.product-container {
+    display: flex;
+    max-width: 90%;
+    margin: auto;
+    justify-content: center;
+}
+
+.product-item{
+    flex: 1;
+    padding: 10px;
+}
+
+.product-item h1 {
+    text-align: left;
+}
+
+.product-item img{
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.products-container{
+    margin: 20px;
+}
+
+footer {
+    padding: 10px;
+    margin: 0px;
+}
