@@ -1,0 +1,43 @@
+.products-header {
+    height: 20%; 
+    background-image: url("/images/new/vladimir-gladkov-d1hKXgFJUKw-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    filter: opacity(40%);
+}
+
+.sort-filter {
+    display: flex;
+    padding: 0;
+}
+
+.sort-filter li{
+    flex: 1;
+    list-style-type: none;
+    text-align: center;
+    border: 1px solid #B8A89C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sort-filter li img {
+    height: 20px;
+    margin: 10px;
+}
+
+.product {
+    flex: 1 0 150px;
+}
+
+.product button {
+    background-color: #B8A89C;
+    border: none;
+    padding: 5px;
+    border-radius: 2px;
+}
+
+footer {
+    margin: 0;
+}
