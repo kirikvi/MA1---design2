@@ -7,6 +7,16 @@
     filter: opacity(40%);
 }
 
+h1 {
+    margin: 10px auto 0;
+}
+
+.intro-text {
+    max-width: 95%;
+    margin: auto;
+    text-align: center;
+}
+
 .sort-filter {
     display: flex;
     padding: 0;
