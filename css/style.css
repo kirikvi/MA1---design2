@@ -41,6 +41,8 @@ img {
 
 h1 {
     margin: 40px auto 5px;
+    font-size: 3rem;
+    line-height: 2.5rem;
 }
 
 .welcome-section h1{
@@ -123,10 +125,12 @@ i {
 }
 
 .welcome-section {
+    background-color: #fff;    
     max-width: 80%;
-    margin: 0px auto 40px;
+    margin: -70px auto 40px;
     padding-bottom: 40px;
     border-bottom: 1.5px dotted #B8A89C;
+    border-radius: 40px 40px 0 0;
 }
 
 .right-align-a {
@@ -194,16 +198,20 @@ footer,
       opacity: 1;
       transform: translateX(0);
     }
-  }
+}
+
+.register {
+    margin-top: 100px;
+}
 
 .register,
 .register img {
     background-color: #B8A89C;
     border-radius: 50px 50px 0 0;
-    margin-top: -60px;
 }
 
 .register img{
+    margin-top: -40px;
     max-width: 60%;
     object-fit: cover;
 }
@@ -241,7 +249,7 @@ footer,
 
 footer {
     background-color: #B8A89C;
-    margin-top: -40px;
+    margin-top:0;
     padding: 50px 0;
     flex-direction: column;
 }
