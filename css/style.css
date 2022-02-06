@@ -53,6 +53,7 @@ h1 {
 h2 {
     text-decoration: underline 0.5px #B8A89C;
     text-transform: capitalize;
+    font-size: 1.8rem;
 }
 
 h1,

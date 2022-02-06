@@ -33,6 +33,15 @@
     margin: 10px;
 }
 
+.breadcrumbs {
+    margin: 15px;
+    font-size: 0.8rem;
+}
+
+.breadcrumbs .current {
+    font-weight: 500;
+}
+
 .product {
     flex: 1 0 150px;
     position: relative;
