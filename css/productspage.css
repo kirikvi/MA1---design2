@@ -7,19 +7,15 @@
     filter: opacity(40%);
 }
 
-h1 {
-    margin: 10px auto 0;
-}
-
 .intro-text {
-    max-width: 95%;
-    margin: auto;
-    text-align: center;
+    max-width: 80%;
+    margin: 0 auto 40px;
 }
 
 .sort-filter {
     display: flex;
     padding: 0;
+    font-weight: 400;
 }
 
 .sort-filter li{
@@ -46,12 +42,22 @@ h1 {
 .product h3,
 .product p {
     padding: 0 10px;
+    margin: 3px;
 }
 
 .product i {
     top: 5px;
     right: 5px;
     position: absolute;
+}
+
+.load-more {
+    display: block;
+    max-width: 50%;
+    margin: 10px auto 40px;
+    border: 1px solid #B8A89C;
+    background-color: #fff;
+    font-size: 1rem;
 }
 
 footer {
